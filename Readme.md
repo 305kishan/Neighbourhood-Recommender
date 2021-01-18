@@ -24,10 +24,10 @@
 
 # Data Description
 <ol>The data to be used in this project is not readily available. Hence, the data has been obtained from various sources such as<br></ol>
-<ol>Foursquare, which is a local search-and-discovery mobile and web based app which provides search results for its users. <br></ol>
-<ol>Wikipedia, which has the details about the neighborhoods in LONDON. https://en.wikipedia.org/wiki/List_of_areas_of_London <br></ol>
-<ol>The geographic coordinates of each location have been obtained through Geopy(https://geopy.readthedocs.io/en/stable/) <br></ol>
-<ol>The Indian population in LONDON has been obtained from : https://en.wikipedia.org/wiki/Indian_community_of_London <br></ol>
+<ol><b>Foursquare</b>, which is a local search-and-discovery mobile and web based app which provides search results for its users. <br></ol>
+<ol><b>Wikipedia</b>, which has the details about the neighborhoods in LONDON. https://en.wikipedia.org/wiki/List_of_areas_of_London <br></ol>
+<ol>The geographic coordinates of each location have been obtained through <b>Geopy</b>(https://geopy.readthedocs.io/en/stable/) <br></ol>
+<ol>The Indian population in LONDON has been obtained from another <b>Wikipedia Article</b> : https://en.wikipedia.org/wiki/Indian_community_of_London <br></ol>
 
 # Data Features
 <ol>As we have to explore and identify the neighbourhoods in the city of London, the London neighbourhood data is the crucial data for this project. <br></ol>

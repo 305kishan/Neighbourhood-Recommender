@@ -2,19 +2,19 @@
 
 # CONTENTS
 <li>Introduction<br>
--Business Problem<br>
--Data Description<br>
--Data features<br>
--Methodology<br>
--Results and Discussion<br>
--Conclusion<br>
+<li>Business Problem<br>
+<li>Data Description<br>
+<li>Data features<br>
+<li>Methodology<br>
+<li>Results and Discussion<br>
+<li>Conclusion<br>
 
 # Introduction
--London is one among the cities in the world, where a large Indian Population resides.<br>
--It is referred to as  the Arch of the world because of its role as the once world’s most powerful kingdom.<br>
--It has a population of over ten million, making it a megacity and most populous city in United Kingdom.<br>
--Being a demographically diverse city, the needs of the residents are also increasing rapidly.<br>
--Hence, any new organization or an existing one should keep up with their pace in supplying the needs of the customers.<br>
+<ol>London is one among the cities in the world, where a large Indian Population resides.<br>
+<ol>It is referred to as  the Arch of the world because of its role as the once world’s most powerful kingdom.<br>
+<ol>It has a population of over ten million, making it a megacity and most populous city in United Kingdom.<br>
+<ol>Being a demographically diverse city, the needs of the residents are also increasing rapidly.<br>
+<ol>Hence, any new organization or an existing one should keep up with their pace in supplying the needs of the customers.<br>
 
 # Business Problem
 -Our customer is ABC Restaurant, which is an International Indian Restaurant Brand and also a market leader. <br>
@@ -23,38 +23,38 @@
 -The problem statement will be: Which neighbourhood has most Indian population and has lesser number of INDIAN RESTAUARNT’s?<br>
 
 # Data Description
--The data to be used in this project is not readily available. Hence, the data has been obtained from various sources such as<br>
---Foursquare, which is a local search-and-discovery mobile and web based app which provides search results for its users. <br>
---Wikipedia, which has the details about the neighborhoods in LONDON. https://en.wikipedia.org/wiki/List_of_areas_of_London <br>
---The geographic coordinates of each location have been obtained through Geopy(https://geopy.readthedocs.io/en/stable/) <br>
---The Indian population in LONDON has been obtained from : https://en.wikipedia.org/wiki/Indian_community_of_London <br>
+<ol>The data to be used in this project is not readily available. Hence, the data has been obtained from various sources such as<br>
+<ol>Foursquare, which is a local search-and-discovery mobile and web based app which provides search results for its users. <br>
+<ol>Wikipedia, which has the details about the neighborhoods in LONDON. https://en.wikipedia.org/wiki/List_of_areas_of_London <br>
+<ol>The geographic coordinates of each location have been obtained through Geopy(https://geopy.readthedocs.io/en/stable/) <br>
+<ol>The Indian population in LONDON has been obtained from : https://en.wikipedia.org/wiki/Indian_community_of_London <br>
 
 # Data Features
--As we have to explore and identify the neighbourhoods in the city of London, the London neighbourhood data is the crucial data for this project. <br>
--The data about each neighbourhood is not readily available, hence we have to scrape the Wikipedia page and obtain the data. <br>
--In order to obtain the coordinates, we make use of geopy library in Python.<br>
--We also need information about each neighbourhood which is  obtained through FourSquare API. <br>
--The population about each neighbourhood will let us know which neighbourhood is more preferable. <br>
+<ol>As we have to explore and identify the neighbourhoods in the city of London, the London neighbourhood data is the crucial data for this project. <br>
+<ol>The data about each neighbourhood is not readily available, hence we have to scrape the Wikipedia page and obtain the data. <br>
+<ol>In order to obtain the coordinates, we make use of geopy library in Python.<br>
+<ol>We also need information about each neighbourhood which is  obtained through FourSquare API. <br>
+<ol>The population about each neighbourhood will let us know which neighbourhood is more preferable. <br>
 
 # Methodology
-	--Data Preprocessing
-	--Exploratory Data Analysis
- 	--Clustering (K-Means Clustering)
+	<ol>Data Preprocessing
+	<ol>Exploratory Data Analysis
+ 	<ol>Clustering (K-Means Clustering)
 
     1. Data Preprocessing
-    ---Scraping from the Wikipedia page
-    ---Obtain coordinates for each location using geopy library
-    ---Finding columns with null values and replacing them
-    ---Merge the neighbourhood dataset with population dataset
+    <li>Scraping from the Wikipedia page
+    <li>Obtain coordinates for each location using geopy library
+    <li>Finding columns with null values and replacing them
+    <li>Merge the neighbourhood dataset with population dataset
     
     2. Exploratory Data Analysis
-    ---Begin by exploring the city and finding the count of neighbourhoods and regions in the city. 
-    ---Find the unique venues in each neighbourhood. 
-    ---visualize the neighbourhoods using a folium map.
-    ---Obtain top 10 venues at each neighbourhood, which will let us know which neighbourhoods lacks in Indian Restaurant.
-    ---By opening a new Restaurant in Indian populated regions, more customers will be satisfied and the venture will be successful and         profitable and will lay the foundation for further expansion of company’s chain. Hence, we sort top 10 neighbourhoods based on           maximum Indian Population. 
+    <li>Begin by exploring the city and finding the count of neighbourhoods and regions in the city. 
+    <li>Find the unique venues in each neighbourhood. 
+    <li>visualize the neighbourhoods using a folium map.
+    <li>Obtain top 10 venues at each neighbourhood, which will let us know which neighbourhoods lacks in Indian Restaurant.
+    <li>By opening a new Restaurant in Indian populated regions, more customers will be satisfied and the venture will be successful and         profitable and will lay the foundation for further expansion of company’s chain. Hence, we sort top 10 neighbourhoods based on           maximum Indian Population. 
     
     3. Clustering
-    ---Sort the neighbourhoods into five clusters to obtain better insights about each neighbourhood and by that we will know which            cluster of neighbourhoods have more population
+    <li>Sort the neighbourhoods into five clusters to obtain better insights about each neighbourhood and by that we will know which            cluster of neighbourhoods have more population
 
 

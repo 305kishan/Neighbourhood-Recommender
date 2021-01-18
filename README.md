@@ -2,39 +2,39 @@
 
 # CONTENTS
 -Introduction<br>
--Business Problem
--Data Description 
--Data features
--Methodology
--Results and Discussion
--Conclusion
+-Business Problem<br>
+-Data Description<br>
+-Data features<br>
+-Methodology<br>
+-Results and Discussion<br>
+-Conclusion<br>
 
 # Introduction
--London is one among the cities in the world, where a large Indian Population resides.
--It is referred to as  the Arch of the world because of its role as the once world’s most powerful kingdom.
--It has a population of over ten million, making it a megacity and most populous city in United Kingdom.  
--Being a demographically diverse city, the needs of the residents are also increasing rapidly. 
--Hence, any new organization or an existing one should keep up with their pace in supplying the needs of the customers
+-London is one among the cities in the world, where a large Indian Population resides.<br>
+-It is referred to as  the Arch of the world because of its role as the once world’s most powerful kingdom.<br>
+-It has a population of over ten million, making it a megacity and most populous city in United Kingdom.<br>
+-Being a demographically diverse city, the needs of the residents are also increasing rapidly.<br>
+-Hence, any new organization or an existing one should keep up with their pace in supplying the needs of the customers.<br>
 
 # Business Problem
--Our customer is ABC Restaurant, which is an International Indian Restaurant Brand and also a market leader. 
--ABC Restaurant has recently planned to expand its business to the United Kingdom, and they want to start this journey from the heart of the UK itself. 
--Given the extremely large size and the population of the city, our customer wants to identify the best neighbourhood area to open its first Indian Restaurant covering the majority of the population and facing least competition from other restaurants. 
--The problem statement will be: Which neighbourhood has most Indian population and has lesser number of INDIAN RESTAUARNT’s?
+-Our customer is ABC Restaurant, which is an International Indian Restaurant Brand and also a market leader. <br>
+-ABC Restaurant has recently planned to expand its business to the United Kingdom, and they want to start this journey from the heart of the UK itself. <br>
+-Given the extremely large size and the population of the city, our customer wants to identify the best neighbourhood area to open its first Indian Restaurant covering the majority of the population and facing least competition from other restaurants. <br>
+-The problem statement will be: Which neighbourhood has most Indian population and has lesser number of INDIAN RESTAUARNT’s?<br>
 
 # Data Description
--The data to be used in this project is not readily available. Hence, the data has been obtained from various sources such as
---Foursquare, which is a local search-and-discovery mobile and web based app which provides search results for its users. 
---Wikipedia, which has the details about the neighborhoods in LONDON. https://en.wikipedia.org/wiki/List_of_areas_of_London
---The geographic coordinates of each location have been obtained through Geopy(https://geopy.readthedocs.io/en/stable/)
---The Indian population in LONDON has been obtained from : https://en.wikipedia.org/wiki/Indian_community_of_London
+-The data to be used in this project is not readily available. Hence, the data has been obtained from various sources such as<br>
+--Foursquare, which is a local search-and-discovery mobile and web based app which provides search results for its users. <br>
+--Wikipedia, which has the details about the neighborhoods in LONDON. https://en.wikipedia.org/wiki/List_of_areas_of_London <br>
+--The geographic coordinates of each location have been obtained through Geopy(https://geopy.readthedocs.io/en/stable/) <br>
+--The Indian population in LONDON has been obtained from : https://en.wikipedia.org/wiki/Indian_community_of_London <br>
 
 # Data Features
--As we have to explore and identify the neighbourhoods in the city of London, the London neighbourhood data is the crucial data for this project. 
--The data about each neighbourhood is not readily available, hence we have to scrape the Wikipedia page and obtain the data. 
--In order to obtain the coordinates, we make use of geopy library in Python.
--We also need information about each neighbourhood which is  obtained through FourSquare API.
--The population about each neighbourhood will let us know which neighbourhood is more preferable. 
+-As we have to explore and identify the neighbourhoods in the city of London, the London neighbourhood data is the crucial data for this project. <br>
+-The data about each neighbourhood is not readily available, hence we have to scrape the Wikipedia page and obtain the data. <br>
+-In order to obtain the coordinates, we make use of geopy library in Python.<br>
+-We also need information about each neighbourhood which is  obtained through FourSquare API. <br>
+-The population about each neighbourhood will let us know which neighbourhood is more preferable. <br>
 
 # Methodology
 	--Data Preprocessing

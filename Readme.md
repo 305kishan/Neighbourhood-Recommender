@@ -5,7 +5,7 @@
 <li>Business Problem </li>
 <li>Data Description </li>
 <li>Data features </li>
-<li>Methodology<br>
+<li>Methodology </li>
 <li>Results and Discussion<br>
 <li>Conclusion<br>
 

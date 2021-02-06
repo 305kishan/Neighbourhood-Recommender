@@ -1,6 +1,6 @@
 # Neighbourhood-Recommender for opening a new business in London, UK
 
-# CONTENTS
+# CONTENT
 <li>Introduction<br>
 <li>Business Problem<br>
 <li>Data Description<br>

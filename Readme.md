@@ -7,7 +7,7 @@
 <li>Data features </li>
 <li>Methodology </li>
 <li>Results and Discussion </li>
-<li>Conclusion<br>
+<li>Conclusion </li>
 
 # Introduction
 <ol>London is one among the cities in the world, where a large Indian Population resides.<br> </ol>

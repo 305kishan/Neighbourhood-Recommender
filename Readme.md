@@ -2,7 +2,7 @@
 
 # CONTENT
 <li>Introduction </li>
-<li>Business Problem<br>
+<li>Business Problem </li>
 <li>Data Description<br>
 <li>Data features<br>
 <li>Methodology<br>

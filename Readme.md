@@ -6,7 +6,7 @@
 <li>Data Description </li>
 <li>Data features </li>
 <li>Methodology </li>
-<li>Results and Discussion<br>
+<li>Results and Discussion </li>
 <li>Conclusion<br>
 
 # Introduction

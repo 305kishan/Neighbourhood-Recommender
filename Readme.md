@@ -4,7 +4,7 @@
 <li>Introduction </li>
 <li>Business Problem </li>
 <li>Data Description </li>
-<li>Data features<br>
+<li>Data features </li>
 <li>Methodology<br>
 <li>Results and Discussion<br>
 <li>Conclusion<br>
